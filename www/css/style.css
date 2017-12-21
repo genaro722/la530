@@ -1,0 +1,54 @@
+/* Empty. Add your own CSS if you like */
+.overflow-scroll{
+    top: 44px !important;    
+    background: #ababab1c;
+    /* background: url(../img/bg-guru.png);
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-color: transparent;
+    background-size: auto; */
+}
+.tabs-top > .tabs, .tabs.tabs-top {
+    bottom: 0px;
+    top: auto;
+    background: transparent url(../img/darkmosaic.png) repeat scroll 0 0;
+    height: 60px;
+}
+.tabs-icon-top > .tabs .tab-item, .tabs-icon-top.tabs .tab-item, .tabs-icon-bottom > .tabs .tab-item, .tabs-icon-bottom.tabs .tab-item {
+    color: white;
+}
+.tabs-top.tabs-striped .tab-item.tab-item-active > .badge, .tabs-top.tabs-striped .tab-item.tab-item-active > i, .tabs-top.tabs-striped .tab-item.active > .badge, .tabs-top.tabs-striped .tab-item.active > i, .tabs-top.tabs-striped .tab-item.activated > .badge, .tabs-top.tabs-striped .tab-item.activated > i {
+    margin-top: 5px;
+}
+.tab-item .icon {
+    margin-top: 5px;
+}
+/* .platform-android .bar .title {
+    background: transparent url(../img/darkmosaic.png) repeat scroll 0 0;
+} */
+[nav-bar-transition="android"] [nav-bar="active"] .bar, [nav-bar-transition="android"] [nav-bar="entering"] .bar {
+    background: transparent url(../img/darkmosaic.png) repeat scroll 0 0;
+}
+.bar.bar-stable .title {
+    color: white !important;
+}
+.img-producto{
+    background: url(../img/images.jpg);
+    background-color: white;
+    width: 110px;
+    height: 110px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center center;
+    border-radius: 100%;
+    border: 4px solid #d22b2b;
+}
+.titulo{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+ion-tabs.tabs-striped.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-striped.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-striped.tabs-color-active-positive .tab-item.activated {
+    border-color: #790000;
+    color: #f53838;
+}
